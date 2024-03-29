@@ -1,0 +1,141 @@
+/* normalize css starts here */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* normalize css ends here */
+
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
+body {
+    width: 350px;
+    height: 300px;
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 12px;
+}
+
+code {
+    font-size: 12px;
+    font-family: inherit;
+    background-color: rgba(254, 237, 185, .3);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.counter-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.counter {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+.button {
+    border: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 4px;
+    margin-left: 4px;
+    background-color: bisque;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: transform .2s ease;
+    user-select: none;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.divider {
+    margin: 30px auto 25px;
+    width: 50px;
+    border: .5px dashed #000;
+    opacity: .1;
+}
+
+
+.btn-container {
+    display: flex;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    margin-right: 16px;
+    width: 120px;
+}
+
+.button-1 {
+    background: #FFCCCC;
+}
+
+.button-2 {
+    background: #FFEE99;
+}
+
+.button-3 {
+    background: #bed2bb;
+}
+
+.button-4 {
+    background: #2e59a7;
+}
+
+.button-5 {
+    background: #CCCCFF;
+}
+
+.button-6 {
+    background: #F0BBFF;
+}
